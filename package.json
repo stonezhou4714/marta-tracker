@@ -1,0 +1,18 @@
+{
+  "name": "marta-tracker",
+  "version": "1.0.0",
+  "description": "MARTA real-time bus tracker using GTFS-RT",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.22.1",
+    "gtfs-realtime-bindings": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
