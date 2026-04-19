@@ -1,4 +1,4 @@
-const API_BASE = window.location.origin;
+const API_BASE = 'https://marta-tracker-production.up.railway.app';
 const REFRESH_INTERVAL = 15000;
 
 let map, allVehicles = [], markers = {}, selectedId = null;
